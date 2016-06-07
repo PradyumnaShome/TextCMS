@@ -1,0 +1,11 @@
+{
+	"title":"Blog Title",
+	"author":"Author",
+	"posts":
+	[
+		"Banana",
+		"Something",
+		"The Alphabet",
+		"Lamps"
+	]
+}
