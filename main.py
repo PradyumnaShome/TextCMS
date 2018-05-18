@@ -23,7 +23,7 @@ class TextCMS:
 		print "Metadata\n"
 		print "Title: " + self.metadata["title"] + "\nAuthor: " + self.metadata["author"] + "\n"
 	def header(self):
-		self.output += '<html>\n<head>\n<link rel="stylesheet" type="text/css" href="' + self.sfp + '">\n<div id="header">\n<h2>\n' + self.metadata['title'] + '<br>by ' + self.metadata['author'] + '</h2>\n</div>\n'
+		self.output += '<html>\n<head>\n<link rel="stylesheet" type="text/css" href="' + self.sfp + '">\n<div id="header">\n</head>\n<body>\n<h2>\n' + self.metadata['title'] + '<br>by ' + self.metadata['author'] + '</h2>\n</div>\n'
 	def content(self, name=None):
 		if not name:
 			for key, value in zip(self.dict.keys(), self.dict.values()):
