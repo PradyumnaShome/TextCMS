@@ -1,11 +1,24 @@
 {
-	"title":"Blog Title",
-	"author":"Author",
-	"posts":
-	[
-		"Banana",
-		"Something",
-		"The Alphabet",
-		"Lamps"
+	"title": "Blog Title",
+	"author": "Author",
+	"stylesheet": "P:/coding/personal/TextCMS/style.css",
+	"build_directory": "build/",
+	"posts": [
+		{
+			"title": "Hypebeast",
+			"path": "examples/Banana.txt"
+		},
+		{
+			"title": "",
+			"path": "examples/Something.txt"
+		},
+		{
+			"title": "The Alphabet",
+			"path": "examples/The Alphabet.txt"
+		},
+		{
+			"title": "Lamps",
+			"path": "examples/Lamps.txt"
+		}
 	]
 }
